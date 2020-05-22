@@ -3,7 +3,7 @@
 ## Example
 
 ```ts
-let socket = new SocketIO('http://localhost:3000');
+let socket = new SocketIO({ url: 'http://localhost:3000' });
 
 socket.on('connect', () => {
     socket.emit('hello');

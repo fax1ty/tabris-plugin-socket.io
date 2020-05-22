@@ -16,7 +16,7 @@ Object.assign(SocketIO.prototype, {
     return this;
   },
 
-  emit: function (event, args) {
+  emit: function (event, ...args) {
     if (typeof event != 'string') throw new Error('Invoking "emit" requires a string parameter "event" but received ' + event);
     if (args === null) this._nativeCall('emit', { event: event });
     else {

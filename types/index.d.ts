@@ -2,9 +2,9 @@ import { NativeObject } from 'tabris';
 
 declare global {
     class SocketIO extends NativeObject {
-        emit(event: string, ...args: any): void;
+        emit(event: string, ...args: Array<any>): void;
         disconnect(): void;
 
-        constructor(url: string);
+        constructor(values: { url: string });
     }
 }
