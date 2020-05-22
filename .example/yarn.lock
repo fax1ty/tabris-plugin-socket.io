@@ -1138,10 +1138,6 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-"tabris-plugin-socket.io@https://github.com/fax1ty/tabris-plugin-socket.io":
-  version "0.0.1"
-  resolved "https://github.com/fax1ty/tabris-plugin-socket.io#94d0d9954641534010807b4e7ad263f6feb82205"
-
 tabris@~3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/tabris/-/tabris-3.5.0.tgz#3cdb0d0ed6e33a8cd0ffc9f886da2ef0c279bf4b"
