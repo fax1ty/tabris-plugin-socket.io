@@ -1,0 +1,13 @@
+{
+  "name": "tabris-plugin-socket.io",
+  "version": "0.0.1",
+  "description": "Socket.IO plugin for Tabris.js",
+  "cordova": {
+    "id": "tabris-plugin-socket.io",
+    "platforms": [
+      "android"
+    ]
+  },
+  "author": "fax1ty",
+  "license": "MIT"
+}
