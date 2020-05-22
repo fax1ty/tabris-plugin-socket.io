@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<widget id='ru.fax1ty.socket_io_example' version='0.1.0'>
+  <name>SocketIO Example</name>
+  <description>
+    Example Tabris.js App
+  </description>
+  <author email='fax1ty.ru@gmail.com'>
+    Artyom Davydov
+  </author>
+  <preference name='EnableDeveloperConsole' value='true' />
+
+  <plugin name='tabris-plugin-socket.io' spec='https://github.com/fax1ty/tabris-plugin-socket.io.git' />
+</widget>

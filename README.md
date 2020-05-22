@@ -11,6 +11,10 @@ socket.on('connect', () => {
 });
 ```
 
+## Android
+
+Android version uses this library: https://github.com/socketio/socket.io-client-java
+
 ## iOS
 
 iOS maintainer is needed. You can use this library https://github.com/socketio/socket.io-client-swift
