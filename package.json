@@ -9,5 +9,8 @@
     ]
   },
   "author": "fax1ty",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tabris": "^3.5.0"
+  }
 }

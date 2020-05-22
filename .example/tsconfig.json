@@ -18,7 +18,7 @@
     "allowJs": true,
     "typeRoots": [
       "node_modules/@types",
-      "node_modules/tabris-plugin-socket.io/"
+      "../"
     ]
   },
   "include": [
