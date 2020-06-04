@@ -17,7 +17,7 @@
 
   <platform name='android'>
     <config-file target='AndroidManifest.xml' parent='/manifest/application'>
-      <meta-data android:name='com.eclipsesource.tabris.android.HANDLER.ru.fax1ty.tabris.socket_io.socketio' android:value='ru.fax1ty.tabris.socket_io.SocketIOHandler' />
+      <meta-data android:name='com.eclipsesource.tabris.android.HANDLER.ru.fax1ty.tabris.socket_io' android:value='ru.fax1ty.tabris.socket_io.SocketIOHandler' />
     </config-file>
 
     <framework src='io.socket:socket.io-client:1.0.0' />
