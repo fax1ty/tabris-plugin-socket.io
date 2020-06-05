@@ -3,6 +3,7 @@ package ru.fax1ty.tabris.socket_io
 import com.eclipsesource.tabris.android.ActivityScope
 import com.eclipsesource.tabris.android.ObjectHandler
 import com.eclipsesource.tabris.android.internal.ktx.getArrayOrNull
+import com.eclipsesource.tabris.android.internal.ktx.getStringOrNull
 import com.eclipsesource.tabris.android.internal.ktx.toList
 import com.eclipsesource.v8.V8Object
 
@@ -11,7 +12,8 @@ class SocketIOHandler(private val scope: ActivityScope) : ObjectHandler<SocketIO
 
     override val type = "ru.fax1ty.tabris.socket_io.SocketIO"
 
-    override fun create(id: String, properties: V8Object) = SocketIO(scope.activity, properties.getString("url"))
+    override fun create(id: String, properties: V8Object) = SocketIO(scope.activity, properties.getStringOrNull("url")
+            ?: "")
 
     override fun call(socket_io: SocketIO, method: String, properties: V8Object) = when (method) {
         "emit" -> {
