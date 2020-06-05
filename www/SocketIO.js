@@ -1,4 +1,4 @@
-class MediaPlayer extends tabris.NativeObject {
+class SocketIO extends tabris.NativeObject {
   constructor(properties) {
     super(properties);
   }
@@ -28,11 +28,11 @@ class MediaPlayer extends tabris.NativeObject {
   }
 }
 
-tabris.NativeObject.defineProperties(MediaPlayer.prototype, {
+tabris.NativeObject.defineProperties(SocketIO.prototype, {
   'url': {
     type: 'string',
     default: ''
   }
 });
 
-module.exports = MediaPlayer;
+module.exports = SocketIO;
